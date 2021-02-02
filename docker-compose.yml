@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:11.5-alpine
+    container_name: blog_postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_db:/var/lib/posgresql/data/
+
+  grls:
+    build: .
+    container_name: blog_course
+    restart: unless-stopped
+    ports:
+      - "3001:3001"
+    depends_on:
+      - blog_postgres
+
+volumes:
+  postgres_db:
+
+
