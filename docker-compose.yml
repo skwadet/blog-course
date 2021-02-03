@@ -16,7 +16,7 @@ services:
     ports:
       - "3001:3001"
     depends_on:
-      - blog_postgres
+      - postgres
 
 volumes:
   postgres_db:
