@@ -12,4 +12,4 @@
 Курс покроет весь необходимый набор для понимания работы веб-приложений.
 
 
-Стек - Django, DRF, Django Filters, Psql, Docker
+Стек - Poetry, Django, Django REST Framework, Django Filter, PyTest, Celery, Redis, PostgreSQL, Docker
