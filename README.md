@@ -28,7 +28,6 @@ Must read:
 - Django
 1. https://docs.djangoproject.com/en/3.1/topics/db/models/
 1. https://docs.djangoproject.com/en/3.1/topics/db/queries/
-1. https://docs.djangoproject.com/en/3.1/topics/db/queries/
 1. https://docs.djangoproject.com/en/3.1/ref/request-response/
 
 - Django REST Framework
