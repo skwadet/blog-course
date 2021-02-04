@@ -2,7 +2,7 @@
 name = "blog_course"
 version = "0.1.0"
 description = ""
-authors = ["eugene bazarov <skwadet@gmail.com>"]
+authors = ["artyom todosiev <zonbon@icloud.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
