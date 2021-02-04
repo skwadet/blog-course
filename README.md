@@ -21,12 +21,23 @@ Credits:
 1. alex-npmn (Alexey Nepomnyashchikh) - Code Reviewer
 
 Must read:
+- Django
 1. https://docs.djangoproject.com/en/3.1/topics/db/models/
 1. https://docs.djangoproject.com/en/3.1/topics/db/queries/
 1. https://docs.djangoproject.com/en/3.1/topics/db/queries/
 1. https://docs.djangoproject.com/en/3.1/ref/request-response/
+
+- Django REST Framework
 1. https://www.django-rest-framework.org/
 1. https://webdevblog.ru/sozdanie-django-api-ispolzuya-django-rest-framework-apiview/
+
+- SQL
 1. https://www.w3schools.com/sql/
+
+- Python lib
 1. https://docs.python.org/3/library/index.html
 1. https://docs.python.org/3/tutorial/index.html
+
+- Git
+1. https://www.atlassian.com/ru/git/tutorials/comparing-workflows/gitflow-workflow
+1. https://git-scm.com/book/ru/v2
