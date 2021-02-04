@@ -15,6 +15,10 @@
 
 Стек - Poetry, Django, Django REST Framework, Django Filter, PyTest, Celery, Redis, PostgreSQL, Docker
 
+Поднять проект:
+1. sudo systemctl start docker (не всегда автоматически запускается)
+1. Из коревой папки проекта: sudo docker-compose up -d postgres
+
 Credits:
 1. etobaza (Artyom Todosiev) - Main Developer
 1. skwadet (Evgeniy Bazarov) - Project Manager
