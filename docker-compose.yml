@@ -9,16 +9,5 @@ services:
     volumes:
       - postgres_db:/var/lib/posgresql/data/
 
-  grls:
-    build: .
-    container_name: blog_course
-    restart: unless-stopped
-    ports:
-      - "3001:3001"
-    depends_on:
-      - postgres
-
 volumes:
   postgres_db:
-
-
