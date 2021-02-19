@@ -1,3 +1,7 @@
 from django.db import models
 
-# Create your models here.
+
+class Like(models.Model):
+    user = models.ForeignKey('BlogUser')
+    post = models.ForeignKey('Post')
+    timestamp = models.DateTimeField()

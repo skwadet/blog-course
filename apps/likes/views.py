@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Like
+from serializers import LikeSerializer
 
-# Create your views here.
+
+class LikeViewSet(viewsets.ModelViewSet):
+    queryset = Like.objects
+    serializer_class = LikeSerializer
