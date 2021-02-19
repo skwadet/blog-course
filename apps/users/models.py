@@ -14,7 +14,8 @@ class Post(models.Model):
     timestamp = models.DateTimeField()
     auto_now = True
 
+
 class Like(models.Model):
-    user =
-    post =
+    user = models.ForeignKey('BlogUser')
+    post = models.ForeignKey('Post')
     timestamp = models.DateTimeField()

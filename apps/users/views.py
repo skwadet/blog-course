@@ -1,7 +1,7 @@
 
-from .models import BlogUser, Post
+from .models import BlogUser, Post, Like
 from rest_framework import viewsets
-from serializers import UserSerializer, PostSerializer
+from serializers import UserSerializer, PostSerializer, LikeSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -12,3 +12,8 @@ class UserViewSet(viewsets.ModelViewSet):
 class PostViewSet(viewsets.ModelViewSet):
     queryset = Post.objects
     serializer_class = PostSerializer
+
+
+class LikeViewSet(viewsets.ModelViewSet):
+    queryset = Like.objects
+    serializer_class = LikeSerializer
