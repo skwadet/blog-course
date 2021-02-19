@@ -6,6 +6,7 @@ class BlogUser(User):
     birthdate = models.DateField()
     bio = models.TextField()
 
+
 class Post(models.Model):
     title = models.CharField()
     content = models.TextField()
